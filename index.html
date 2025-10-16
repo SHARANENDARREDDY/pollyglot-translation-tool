@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img  class="parrot-img" src="./assets/parrot.png" alt="parrot image"/>
+            <section>
+                <h1>PollyGlot</h1>
+                <p>Perfect Translation Every Time</p>
+            </section>
+        </header>
+        <main>
+            <section class="section-two">
+                <p class="blue">Text to translate 👇</p>
+                <textarea type="text" id="input">How are you? </textarea>
+              
+                </section>
+                <section class="section-three" id="translate">
+                    <p class="blue">Select language 👇</p>
+            <form id="form">
+               
+                <label>
+                     <input type="radio" name="country" value="French">French 
+                     <img src="./assets/fr-flag.png" alt="French flag">
+                </label><br>
+                <label>
+                     <input type="radio" name="country" value="Spanish">Spanish
+                     <img src="./assets/sp-flag.png" alt="spain flag"/>
+                </label><br>
+               <label>
+                     <input type="radio" name="country" value="Japanese">Japanese
+                     <img src="./assets/jpn-flag.png" alt="Japen flag"/>
+                </label><br>
+               <button>Translate</button>
+</form>
+       </section>     
+        </main>
+        <script src="index.js" type="module"></script>
+    </body>
+</html>
