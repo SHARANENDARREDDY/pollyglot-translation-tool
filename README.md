@@ -29,8 +29,7 @@ PollyGlot is a simple web-based translation tool that allows users to input text
 ├── index.js # JavaScript logic for translation
 └── assets/ # Contains images (flags, parrot, etc.)
 
-yaml
-Copy code
+
 
 ---
 
