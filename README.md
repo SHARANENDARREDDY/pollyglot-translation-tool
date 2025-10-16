@@ -62,15 +62,12 @@ Copy code
 💡 Example Usage
 Input:
 
-sql
-Copy code
 How are you?
 Selected Language: French
-Output:
 
-css
-Copy code
+Output:
 Comment ça va?
+
 🎨 Fonts Used
 Big Shoulders – for main heading
 
@@ -85,8 +82,3 @@ Display translation history
 
 Dark/light theme toggle
 
-
-
-👨‍💻 Developed by
-Sharanendar Reddy Jeedipally
-“Perfect Translation Every Time!”
